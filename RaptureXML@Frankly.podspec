@@ -6,8 +6,10 @@ Pod::Spec.new do |s|
   s.homepage      = 'https://github.com/tictocplanet/RaptureXML'
   s.author        = { 'Justin Hill' => 'justin@franklyinc.com' }
   s.source        = { :git => 'https://github.com/tictocplanet/RaptureXML.git', :tag => s.version.to_s }
-  s.platforms     = :ios, :tvos
   s.source_files  = 'RaptureXML/*'
+
+  s.ios.deployment_target = '8.0'
+  s.tvos.deployment_target = '9.0'
 
   s.libraries     = 'z', 'xml2'
   s.xcconfig      = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
