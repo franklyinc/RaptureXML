@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = 'RaptureXML@Frankly'
-  s.version       = '1.0.1.2'
+  s.version       = '1.0.2'
   s.license       = 'MIT'
   s.summary       = 'A simple, sensible, block-based XML API for iOS and Mac development.'
   s.homepage      = 'https://github.com/tictocplanet/RaptureXML'
