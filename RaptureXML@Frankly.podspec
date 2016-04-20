@@ -6,7 +6,8 @@ Pod::Spec.new do |s|
   s.homepage      = 'https://github.com/tictocplanet/RaptureXML'
   s.author        = { 'Justin Hill' => 'justin@franklyinc.com' }
   s.source        = { :git => 'https://github.com/tictocplanet/RaptureXML.git', :tag => s.version.to_s }
-  s.platforms     = :ios, :tvos
+  s.ios.deployment_target = "8.0"
+  s.tvos.deployment_target = "9.0"
   s.source_files  = 'RaptureXML/*'
 
   s.libraries     = 'z', 'xml2'
