@@ -18,6 +18,26 @@ module libxmlSimuFrankly [system] {
     export *
 }
 
+module libxmlTVFrankly [system] {
+    header "{XCODE_DEVELOPER_DIR}/Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS.sdk/usr/include/libxml2/libxml/tree.h"
+    header "{XCODE_DEVELOPER_DIR}/Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS.sdk/usr/include/libxml2/libxml/xmlreader.h"
+    header "{XCODE_DEVELOPER_DIR}/Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS.sdk/usr/include/libxml2/libxml/xmlmemory.h"
+    header "{XCODE_DEVELOPER_DIR}/Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS.sdk/usr/include/libxml2/libxml/HTMLparser.h"
+    header "{XCODE_DEVELOPER_DIR}/Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS.sdk/usr/include/libxml2/libxml/xpath.h"
+    header "{XCODE_DEVELOPER_DIR}/Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS.sdk/usr/include/libxml2/libxml/xpathInternals.h"
+    export *
+}
+
+module libxmlTVSimuFrankly [system] {
+    header "{XCODE_DEVELOPER_DIR}/Platforms/AppleTVSimulator.platform/Developer/SDKs/AppleTVSimulator.sdk/usr/include/libxml2/libxml/tree.h"
+    header "{XCODE_DEVELOPER_DIR}/Platforms/AppleTVSimulator.platform/Developer/SDKs/AppleTVSimulator.sdk/usr/include/libxml2/libxml/xmlreader.h"
+    header "{XCODE_DEVELOPER_DIR}/Platforms/AppleTVSimulator.platform/Developer/SDKs/AppleTVSimulator.sdk/usr/include/libxml2/libxml/xmlmemory.h"
+    header "{XCODE_DEVELOPER_DIR}/Platforms/AppleTVSimulator.platform/Developer/SDKs/AppleTVSimulator.sdk/usr/include/libxml2/libxml/HTMLparser.h"
+    header "{XCODE_DEVELOPER_DIR}/Platforms/AppleTVSimulator.platform/Developer/SDKs/AppleTVSimulator.sdk/usr/include/libxml2/libxml/xpath.h"
+    header "{XCODE_DEVELOPER_DIR}/Platforms/AppleTVSimulator.platform/Developer/SDKs/AppleTVSimulator.sdk/usr/include/libxml2/libxml/xpathInternals.h"
+    export *
+}
+
 module libxmlMacFrankly [system] {
     header "{XCODE_DEVELOPER_DIR}/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/include/libxml2/libxml/tree.h"
     header "{XCODE_DEVELOPER_DIR}/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/include/libxml2/libxml/xmlreader.h"
